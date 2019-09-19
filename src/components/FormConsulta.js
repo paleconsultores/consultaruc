@@ -80,7 +80,7 @@ class FormConsulta extends React.Component {
                         {!muestra ? <Recaptcha
                             onloadCallback={this.recaptchaload}
                             verifyCallback={this.verifyCallback}
-                            sitekey='6LfAAbkUAAAAABXGTbsOBfvBVKQIX33RZxShhIEO'  
+                            sitekey='6LcPYbkUAAAAAAc16Q2-aPOHaDSM7MM3Vs3ODJhN'  
                             render = 'explicit'
                         /> : null}
                     </div>
