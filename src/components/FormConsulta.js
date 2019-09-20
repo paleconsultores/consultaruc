@@ -27,7 +27,7 @@ class FormConsulta extends React.Component {
         if(this.state.isverified){
             e.preventDefault();
 
-            var url = new URL('http://consultaruc.hopto.org:3000/api/APadronSunat/consulta');
+            var url = new URL('http://18.217.65.58:3000/api/APadronSunat/consulta');
             var params = {ruc: this.state.ruc};
     
             url.search = new URLSearchParams(params);
