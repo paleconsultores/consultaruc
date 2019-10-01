@@ -3,16 +3,24 @@ import React from 'react';
 import redhex from '../../../../images/red7.png';
 import redhexs from '../../../../images/red7s.png';
 import ayudaImg from '../../../../images/ayuda.jpg';
+import fondo from '../../../../images/ImgenPrueba1.jpg';
 import './styles.css';
 
 export class Body extends React.Component {
   render() {
     return(
       <div className="contenedor">
+        
         <div className="animaciones">
           <img className="ImgHex shadow" src={redhexs}></img>
           <img className="ImgHex" src={redhex}></img>
+         
+          <img  className="sizeImage" src={fondo}/>
+       
+         
         </div>
+          
+         
         <div className="mensaje">
           <p><span>Creamos soluciones a la medida de tu mundo, utilizando tecnologías de ultima generación</span></p>
         </div>

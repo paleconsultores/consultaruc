@@ -4,7 +4,7 @@
 }
 
 .ImgHex {
-  position: relative;
+  position: absolute;
   transform-origin: 43% 33%;
   animation: rotateHexImg 10s linear infinite;
 }
@@ -40,4 +40,8 @@
   to {
     transform: rotate(359deg);
   }
+}
+
+.sizeImage{
+  width: 100%;
 }
