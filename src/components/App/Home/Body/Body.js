@@ -92,6 +92,11 @@ export class Body extends React.Component {
               <p>Resolvemos tus dudas, brindandote soporte 15/6, con respuestas inmediatas y tu operacion este asegurada</p>
               <img></img>
             </div>
+            <div className="ventas">
+              <h1>Ventas</h1>
+              <p></p>
+              <img></img>
+            </div>
           </div>
         </div>
       </div>
