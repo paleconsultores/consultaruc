@@ -1,34 +1,23 @@
-import React from "react";
+import React from 'react';
 
 import './styles.css'
+import logoPale from '../../../../images/Logo_Pale_Negativo_Imagen.png';
 
 export class Header extends React.Component {
   render() {
     return(
       <header>
         <nav>
-          <div>
-            <h1>
-              <span className="Brand">
-                <em>P</em>
-                <em>a</em>
-                <em>l</em>
-                <em>e</em>
-              </span>
-            </h1>
+          <div className="Marca">
+            <img className="logoPale" src={logoPale}></img>
           </div>
           <div className="Menu">
             <ul>
-              <li>Empresa</li>
-              <li>Soluciones</li>
-              <li>Clientes</li>
+              <li>SOBRE</li>
+              <li>SOLUCIONES</li>
+              <li>CLIENTES</li>
             </ul>
           </div>
-          {/* <div className="BurgerMenu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div> */}
         </nav>
       </header>
     );

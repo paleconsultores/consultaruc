@@ -1,14 +1,15 @@
 import React from 'react';
 import { Header } from './Header';
 import { Body } from './Body';
+import { Footer } from './Footer';
 
 export class Home extends React.Component{
   render() {
     return(
-      <section>
+      <section className="Home">
         <Header></Header>
         <Body></Body>
-        <footer></footer>
+        <Footer></Footer>
       </section>
     );
   }

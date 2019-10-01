@@ -1,0 +1,20 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  background: #D9242E;
+  height: 200px;
+}
+
+footer .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info h5 {
+  margin: .6em 0;
+  color: white;
+}
+
+.logoFooter {
+  width: 120px;
+}
