@@ -7,7 +7,9 @@ import ayudaImg from '../../../../images/ayuda.jpg';
 import fondo from '../../../../images/ImgenPrueba1.jpg';
 import Carousel from './3-Carousel/Carousel';
 import { CarouselItem } from './3-Carousel/CarouselItem';
-import './styles.css';
+import './Body.css';
+import { Services } from './4-Services';
+import { ClientList } from './5-ClientList';
 
 export class Body extends React.Component {
   render() {
@@ -79,35 +81,8 @@ export class Body extends React.Component {
                 <CarouselItem/>
             </Carousel>
         </div>
-        <div className="servicios">
-          <div className="orden">04</div>
-          <div className="titulo">
-            <h2>Mundo</h2>
-            <h1>PALERP</h1>
-          </div>
-          <div className="info">
-            <div className="capacitaciones">
-              <h1>Capacitaciones</h1>
-              <p>Brindamos capacitaciones, para que se familiaricen con nuestro servicio, absorviendo sus dudas</p>
-              <img></img>
-            </div>
-            <div className="equipoDesarrollo">
-              <h1>Equipo de desarrollo</h1>
-              <p>Contamos y trabajamos con tecnología de vanguardia para nuestros sistemas de gestión y nuestros productos tecnológicos</p>
-              <img></img>
-            </div>
-            <div className="soporte">
-              <h1>Soporte</h1>
-              <p>Resolvemos tus dudas, brindandote soporte 15/6, con respuestas inmediatas y tu operacion este asegurada</p>
-              <img></img>
-            </div>
-            <div className="ventas">
-              <h1>Ventas</h1>
-              <p></p>
-              <img></img>
-            </div>
-          </div>
-        </div>
+        <Services></Services>
+        <ClientList></ClientList>
       </div>
     );
   }
