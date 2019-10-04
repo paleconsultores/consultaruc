@@ -32,6 +32,11 @@
   display: flex;
   flex-direction: row;
 }
+.productos{
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
 
 @keyframes rotateHexImg {
   from {

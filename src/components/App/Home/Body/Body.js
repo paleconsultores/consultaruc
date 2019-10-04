@@ -1,9 +1,12 @@
+//Dependencies
 import React from 'react';
-
+//Resources
 import redhex from '../../../../images/red7.png';
 import redhexs from '../../../../images/red7s.png';
 import ayudaImg from '../../../../images/ayuda.jpg';
 import fondo from '../../../../images/ImgenPrueba1.jpg';
+import Carousel from './3-Carousel/Carousel';
+import { CarouselItem } from './3-Carousel/CarouselItem';
 import './styles.css';
 
 export class Body extends React.Component {
@@ -68,15 +71,13 @@ export class Body extends React.Component {
           <p><span>Conoce mas sobre nuestro trabajo</span></p>
         </div>
         <div className="productos">
-          <div className="orden">
-            <h1>03</h1>
-          </div>
-          <div className="info">
-            <img></img>
-            <div className="desc">
-              <span><p>Facturacion Electrónica</p></span>
-            </div>
-          </div>
+          <div className="orden"><h1>03</h1></div>
+            <Carousel>
+                <CarouselItem/>
+                <CarouselItem/>
+                <CarouselItem/>
+                <CarouselItem/>
+            </Carousel>
         </div>
         <div className="servicios">
           <div className="orden">04</div>
