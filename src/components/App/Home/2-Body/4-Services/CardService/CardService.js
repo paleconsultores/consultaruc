@@ -7,35 +7,36 @@ import DEFAULT_IMAGE from "./images/ayuda.jpg";
 import './CardService.css';
 
 export function CardService(
-  { type = 1,
-    serviceClass = '', 
+  { 
+    type = 1,
     title = 'lorem', 
-    img = DEFAULT_IMAGE, 
+    imageUrl = DEFAULT_IMAGE,
+    alt = "image alternate text", 
     children = 'lorem ipsum'
   }) 
 {
-  if (type == 1) {
+  if (type === 1) {
     return (
-      <div className={"cardService " + serviceClass}>
-        <h1 className="title">{title}</h1>
-        <p className="description">{children}</p>
-        <img className="image" src={img}></img>
+      <div className="card-service">
+        <h1 className="title title--gray">{title}</h1>
+        <p className="card-service__description">{children}</p>
+        <img className="card-service__image" src={imageUrl} alt={alt}/>
       </div>
     );
   } else {
     return (
-      <div className={"cardService " + serviceClass}>
-        <img className="image" src={img}></img>
-        <h1 className="title">{title}</h1>
-        <p className="description">{children}</p>
+      <div className="card-service">
+        <img className="card-service__image" src={imageUrl} alt={alt}/>
+        <h1 className="title title--gray">{title}</h1>
+        <p className="card-service__description">{children}</p>
       </div>
     );
   }
 }
 
-CardService.propTypes ={
+CardService.propTypes = {
   type: PropTypes.number,
   serviceClass: PropTypes.string,
   title: PropTypes.string,
-  img: PropTypes.string
+  image: PropTypes.string
 }

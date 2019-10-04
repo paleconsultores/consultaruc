@@ -6,6 +6,7 @@ import ayudaImg from '../../../../images/ayuda.jpg';
 import fondo from '../../../../images/ImgenPrueba1.jpg';
 import './Body.css';
 import { Services } from './4-Services';
+import { ClientList } from './5-ClientList';
 
 export class Body extends React.Component {
   render() {
@@ -80,6 +81,7 @@ export class Body extends React.Component {
           </div>
         </div>
         <Services></Services>
+        <ClientList></ClientList>
       </div>
     );
   }
