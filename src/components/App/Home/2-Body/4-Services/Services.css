@@ -1,24 +1,9 @@
-.Services {
+.services {
   display: grid;
   grid-template-rows: auto 1fr;
 }
 
-.title h2 {
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  color: #00BB8D;
-  font-size: 45px;
-  margin: 0;
-}
-
-.title h1 {
-  color: #FF4544;
-  font-size: 95px;
-  margin: 0;
-}
-
-.info {
+.services__info {
   display: grid;
   grid-template: repeat(2, minmax(200px, 1fr)) / repeat(2, minmax(200px, 650px));
   gap: 10px;
@@ -26,7 +11,7 @@
 }
 
 @media screen and (max-width : 1300px){
-  .info {
+  .services__info {
     grid-template: repeat(4, minmax(200px, 1fr)) / 1fr;
   }
 }

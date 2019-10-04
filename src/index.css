@@ -12,6 +12,36 @@ code {
     monospace;
 }
 
-div {
-  width: 100%;
+/* title element */
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+/* title element with green modifier*/
+.title--green {
+  color: #00BB8D;
+}
+
+/* title element with red modifier*/
+.title--red {
+  color: #FF4544;
+}
+
+/* title element with gray modifier*/
+.title--gray {
+  color: #707070;
+}
+
+/* title element with medium modifier*/
+.title--medium {
+  font-size: 45px;
+}
+
+/* title element with large modifier*/
+.title--large {
+  font-size: 95px;
 }
