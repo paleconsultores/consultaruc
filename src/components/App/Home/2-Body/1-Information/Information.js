@@ -25,32 +25,37 @@ export function Information(){
 
     return(
         <div className="information">
-        <div className="container">
-        <section className="information__seccion">
+       
+        <div className="information__row">
+            <div  className="information_column">
+                <div className="information__left" >
+                    { _cardInformation.map((information) =>
+                    <CardInformation
+                        type={information.type}
+                        title={information.title}
+                        descripcion={information.descripcion}
+                    />
+                    )}
+
+                </div>
+            </div>
             
-            <div className="information__left" >
-                { _cardInformation.map((information) =>
-                <CardInformation
-                    type={information.type}
-                    title={information.title}
-                    descripcion={information.descripcion}
-                />
-                )}
+            <div  className="information_column">
+                <div className="information__right">
+                    { _images.map((image) =>
+                    <Image
+                        type={image.type}
+                        imageUrl={image.imageUrl}     
+                    />
+                    )}
+
+                </div>   
 
             </div>
+           
 
-            <div className="information__right">
-                { _images.map((image) =>
-                <Image
-                    type={image.type}
-                    imageUrl={image.imageUrl}     
-                />
-                )}
-
-            </div>   
-
-        </section>
         </div>
         </div>
+       
     );
 }
