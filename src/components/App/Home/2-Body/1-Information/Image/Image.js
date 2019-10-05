@@ -3,7 +3,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 //Resources
-import DEFAULT_IMAGE from "./images/consulta.jpg";
+import DEFAULT_IMAGE from "../images/ayuda.jpg";
 import './Image.css';
 
 export function Image(
@@ -17,13 +17,11 @@ export function Image(
     if(type===1){
         return(
             <div className="image">
-  
-            
+
             <img
                 className="image__image"
                 src={imageUrl} alt={alt}/>
-          
-          
+                  
           </div>
 
             );
@@ -32,7 +30,5 @@ export function Image(
     Image.propTypes = {
         type: PropTypes.number,
         serviceClass: PropTypes.string,
-        title: PropTypes.string,
-        image: PropTypes.string,
-        descripcion:PropTypes.string
+        image: PropTypes.string
       }

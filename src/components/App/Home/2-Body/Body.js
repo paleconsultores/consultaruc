@@ -3,7 +3,6 @@ import React from 'react';
 //Resources
 import redhex from '../../../../images/red7.png';
 import redhexs from '../../../../images/red7s.png';
-import ayudaImg from '../../../../images/ayuda.jpg';
 import fondo from '../../../../images/ImgenPrueba1.jpg';
 import Carousel from './3-Carousel/Carousel';
 import { CarouselItem } from './3-Carousel/CarouselItem';
@@ -27,7 +26,6 @@ export class Body extends React.Component {
          
         </div>
           
-         
         <div className="mensaje">
           <p><span>Creamos soluciones a la medida de tu mundo, utilizando tecnologías de ultima generación</span></p>
         </div>
@@ -39,7 +37,6 @@ export class Body extends React.Component {
             <div className="desc">
               <Information/>
             </div>
-            <img src={ayudaImg}></img>
           </div>
         </div>
           <div>

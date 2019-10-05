@@ -6,7 +6,7 @@
     overflow: hidden;
     align-content: center;
     align-items: center;
-    width: 30%;
+    justify-content: center;
     height: auto;
     padding: 20px;
     margin: 20px;
