@@ -29,16 +29,15 @@ export class Body extends React.Component {
         <div className="mensaje">
           <p><span>Creamos soluciones a la medida de tu mundo, utilizando tecnologías de ultima generación</span></p>
         </div>
-        <div className="about">
-          <div className="orden">
-            
-          </div>
-          <div className="info">
-            <div className="desc">
-              <Information/>
-            </div>
-          </div>
-        </div>
+       
+         <div>
+
+           <Information/>
+
+         </div>
+              
+          
+       
           <div>
             <Solutions/>
           </div>
