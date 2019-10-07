@@ -2,12 +2,15 @@
 
   .information{
 
-    width: 100%;
-    background:transparent;
-    display: flex; 
-    align-items: center; 
+  
+    margin: 0 auto;
+    max-width: 1800px;
+    height: auto;
+    background-color:transparent;
+    border-radius: 3px;
+    align-content: center;
+    align-items: center;
     padding: 20px;
-    margin: auto;
 
   }
 
