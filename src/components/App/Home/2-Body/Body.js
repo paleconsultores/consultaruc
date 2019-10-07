@@ -1,12 +1,16 @@
+//Dependencies
 import React from 'react';
-
+//Resources
 import redhex from '../../../../images/red7.png';
 import redhexs from '../../../../images/red7s.png';
-import ayudaImg from '../../../../images/ayuda.jpg';
 import fondo from '../../../../images/ImgenPrueba1.jpg';
+import Carousel from './3-Carousel/Carousel';
+import { CarouselItem } from './3-Carousel/CarouselItem';
 import './Body.css';
 import { Services } from './4-Services';
 import { ClientList } from './5-ClientList';
+import {Solutions} from './2-Solutions';
+import {Information} from './1-Information';
 
 export class Body extends React.Component {
   render() {
@@ -22,63 +26,33 @@ export class Body extends React.Component {
          
         </div>
           
-         
         <div className="mensaje">
           <p><span>Creamos soluciones a la medida de tu mundo, utilizando tecnologías de ultima generación</span></p>
         </div>
         <div className="about">
           <div className="orden">
-            <h1>01</h1>
+            
           </div>
           <div className="info">
             <div className="desc">
-              <h3>QUIENES SOMOS</h3>
-              <span><p>Somos una empresa de consultoria y desarrollo de software, dedicada a bindar soluciones a empresas en distintos rubros. Nuestra vision es de mejora continua, trabajamos constantemente para crecer con usted y ofrecerle siempre los mejores avances en cuanto a tecnologia, en software nuestras soluciones combinan una operatoria ágil, sencilla y segura con el mayor control de información sobre su negocio, en cuanto a hardware trabajamos con equipos tecnológicos de alto nivel y garantia, las cuales son herramientas que potenciaran su negocio.</p></span>
-            </div>
-            <img src={ayudaImg}></img>
-          </div>
-        </div>
-        <div className="soluciones">
-          <div className="orden">
-            <h1>02</h1>
-          </div>
-          <div className="info">
-            <div className="titulo">
-              <h2>Nuestras</h2>
-              <h1>SOLUCIONES</h1>
-            </div>
-            <div className="tiposSoluciones">
-              <div className="consultoria">
-                <img></img>
-                <h3>Consultoría</h3>
-                <span>Saber mas</span>
-              </div>
-              <div className="hardwareSoftware">
-                <img></img>
-                <h3>Hardware y Software</h3>
-                <span>Saber mas</span>
-              </div>
-              <div className="desarrolloSoftware">
-                <img></img>
-                <h3>Desarrollo de Software</h3>
-                <span>Saber mas</span>
-              </div>
+              <Information/>
             </div>
           </div>
         </div>
+          <div>
+            <Solutions/>
+          </div>
         <div className="mensaje">
           <p><span>Conoce mas sobre nuestro trabajo</span></p>
         </div>
         <div className="productos">
-          <div className="orden">
-            <h1>03</h1>
-          </div>
-          <div className="info">
-            <img></img>
-            <div className="desc">
-              <span><p>Facturacion Electrónica</p></span>
-            </div>
-          </div>
+          <div className="orden"><h1>03</h1></div>
+            <Carousel>
+                <CarouselItem/>
+                <CarouselItem/>
+                <CarouselItem/>
+                <CarouselItem/>
+            </Carousel>
         </div>
         <Services></Services>
         <ClientList></ClientList>
