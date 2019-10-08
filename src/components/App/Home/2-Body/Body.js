@@ -18,8 +18,8 @@ export class Body extends React.Component {
       <div className="contenedor">
         
         <div className="animaciones">
-          <img className="ImgHex shadow" src={redhexs}></img>
-          <img className="ImgHex" src={redhex}></img>
+          {/* <img className="ImgHex shadow" src={redhexs}></img>
+          <img className="ImgHex" src={redhex}></img> */}
          
           <img  className="sizeImage" src={fondo}/>
        

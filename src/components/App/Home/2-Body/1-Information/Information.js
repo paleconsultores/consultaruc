@@ -24,38 +24,61 @@ export function Information(){
 ]
 
     return(
-        <div className="information">
-       
-        <div className="information__row">
-            <div  className="information_column">
-                <div className="information__left" >
-                    { _cardInformation.map((information) =>
-                    <CardInformation
-                        type={information.type}
-                        title={information.title}
-                        descripcion={information.descripcion}
-                    />
-                    )}
 
-                </div>
+        <section className="information">
+            <div className="information__info">
+            <div className="information__item">
+                    { _cardInformation.map((information) =>
+                            <CardInformation
+                                type={information.type}
+                                title={information.title}
+                                descripcion={information.descripcion}
+                            />
+                    )}
             </div>
-            
-            <div  className="information_column">
-                <div className="information__right">
-                    { _images.map((image) =>
+            <div className="information__item">
+            { _images.map((image) =>
                     <Image
                         type={image.type}
                         imageUrl={image.imageUrl}     
                     />
                     )}
-
-                </div>   
-
             </div>
-           
+            </div>
+          
 
-        </div>
-        </div>
+        </section>
+
+
+
+        // <div className="information">
+       
+        // <div className="information__row">
+        //     <div  className="information_column">
+        //         <div className="information__left" >
+        //             { _cardInformation.map((information) =>
+        //             <CardInformation
+        //                 type={information.type}
+        //                 title={information.title}
+        //                 descripcion={information.descripcion}
+        //             />
+        //             )}
+
+        //         </div>
+        //     </div>
+            
+        //     <div  className="information_column">
+        //         <div className="information__right">
+        //             { _images.map((image) =>
+        //             <Image
+        //                 type={image.type}
+        //                 imageUrl={image.imageUrl}     
+        //             />
+        //             )}
+        //         </div>   
+        //     </div>
+        // </div>
+        // </div>
        
     );
 }

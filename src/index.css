@@ -38,10 +38,10 @@ code {
 
 /* title element with medium modifier*/
 .title--medium {
-  font-size: 45px;
+  font-size: 35px;
 }
 
 /* title element with large modifier*/
 .title--large {
-  font-size: 95px;
+  font-size: 50px;
 }
