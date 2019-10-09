@@ -5,8 +5,7 @@ import redhex from '../../../../images/red7.png';
 import redhexs from '../../../../images/red7s.png';
 import ayudaImg from '../../../../images/ayuda.jpg';
 import fondo from '../../../../images/ImgenPrueba1.jpg';
-import Carousel from './3-Carousel/Carousel';
-import { CarouselItem } from './3-Carousel/CarouselItem';
+import {Carousel} from './3-Carousel/Carousel';
 import './Body.css';
 import { Services } from './4-Services';
 import { ClientList } from './5-ClientList';
@@ -69,18 +68,10 @@ export class Body extends React.Component {
             </div>
           </div>
         </div>
-        <div className="mensaje">
+        <div className="mesagge">
           <p><span>Conoce mas sobre nuestro trabajo</span></p>
         </div>
-        <div className="productos">
-          <div className="orden"><h1>03</h1></div>
-            <Carousel>
-                <CarouselItem/>
-                <CarouselItem/>
-                <CarouselItem/>
-                <CarouselItem/>
-            </Carousel>
-        </div>
+        <Carousel></Carousel>
         <Services></Services>
         <ClientList></ClientList>
       </div>
