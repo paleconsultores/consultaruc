@@ -22,6 +22,10 @@
   padding:  5% 10%;
   margin: 0;
 }
+.mensaje p span{
+  /*font-size: 4vw;*/
+  font-size: 4vw;
+}
 
 .about {
   display: flex;

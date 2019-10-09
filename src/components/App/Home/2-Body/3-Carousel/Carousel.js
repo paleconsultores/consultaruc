@@ -3,7 +3,6 @@ import React from "react";
 //Resources
 import { data } from './CarouselData'
 import { CarouselCard } from './CarouselCard/CarouselCard'
-import { restElement } from "@babel/types";
 
 export class Carousel extends React.Component {
     constructor(props) {
@@ -42,7 +41,7 @@ export class Carousel extends React.Component {
     startCarousel = () => {
         setInterval(()=>{
             this.changeProperty()
-        },4000)
+        },3000)
     }
     render() {
         const { properties, property } = this.state;
