@@ -28,7 +28,7 @@ export class Body extends React.Component {
         </div>
           
         <div className="mensaje">
-          <p><span>Creamos soluciones a la medida de tu mundo, utilizando tecnologías de ultima generación</span></p>
+          <p><span>Somos una empresa de consultoría y desarrollo de software,dedicada a brindar soluciones a empresas en distintos rubros</span></p>
         </div>
          <div>
            <Information/>
