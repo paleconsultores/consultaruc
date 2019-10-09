@@ -11,7 +11,7 @@
     justify-content: center;
   }
   
-  @media screen and (max-width : 1100px){
+  @media screen and (max-width : 900px){
     .solutions__info {
       grid-template: repeat(1, minmax(200px, 1fr)) / 1fr;
     }
