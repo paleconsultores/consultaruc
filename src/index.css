@@ -19,7 +19,6 @@ html {
 
 /* title element */
 .title {
-  font-size: 2.5rem; /* 40px */
   text-transform: uppercase;
   font-weight: bold;
   display: flex;
@@ -42,9 +41,14 @@ html {
   color: #707070;
 }
 
+/* x small title */
+.title--x-small {
+  font-size: 1.5rem; /* 24px */
+}
+
 /* small title */
 .title--small {
-  font-size: 2.5rem;
+  font-size: 2.5rem; /* 40px */
 }
 
 /* medium title */
@@ -60,6 +64,6 @@ html {
 @media screen and (max-width: 767px) {
   html {
     /* font-size 16px */
-    font-size: 62.5%;
+    font-size: 75%;
   }
 }
