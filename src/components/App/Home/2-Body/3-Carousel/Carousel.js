@@ -27,7 +27,9 @@ export class Carousel extends React.Component {
     changeProperty = () => {
         var newIndex = this.state.property.index + 1;
         var resetIndex = data.properties.length - 1;
-        //console.log(resetIndex)
+        
+        //
+        //
         if (newIndex > resetIndex) {
             newIndex=0
         }
