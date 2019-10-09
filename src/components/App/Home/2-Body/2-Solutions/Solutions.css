@@ -1,8 +1,7 @@
   .solutions {
     display: grid;
     grid-template-rows: auto 1fr;
-    padding: 20px;
-    margin: 20px;
+  
   }
   
   .solutions__info {

@@ -29,7 +29,7 @@ export function Services() {
       type: 2,
       alt: 'sales',
       title: 'Ventas',
-      description: ''
+      description: 'Resolvemos tus dudas, brindandote soporte 15/6, con respuestas inmediatas y tu operacion este asegurada'
     }
   ]
 
