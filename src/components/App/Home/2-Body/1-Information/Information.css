@@ -1,0 +1,23 @@
+.information{
+  display: grid;
+  grid-template-rows: auto 1fr;
+  
+}
+
+.information__info {
+  display: grid;
+  grid-template: repeat(1, minmax(700px, 1fr)) / repeat(2, minmax(1200px, 400px));
+  gap: 10px;
+  justify-content: center;
+}
+
+@media screen and (max-width : 1000px){
+  .information__info {
+    grid-template: repeat(1, minmax(200px, 1fr)) / 1fr;
+  }
+} 
+
+
+
+
+  

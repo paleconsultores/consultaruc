@@ -8,12 +8,9 @@
 }
 .carousel-card__image{
   width: 100%;
-  height: auto;
-  
+  height: 25rem;
 }
 .carousel-card__text{
-  justify-items: center;
-  font-size: 2vw;
-  padding-left: 20px;
-  width: 100%;
+  align-items: center;
+  font-size: 1.2em;
 }

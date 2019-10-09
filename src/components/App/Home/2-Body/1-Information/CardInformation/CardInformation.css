@@ -1,0 +1,24 @@
+.card-information
+{
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 8px 8px 8px 8px;
+    overflow: hidden;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  
+}
+.card-information h1{
+    font-family: 'Open Sans',  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    color: #FF4544;
+    font-weight: bold;
+}
+
+.card-information h2{
+    font-family: 'Open Sans',  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+}

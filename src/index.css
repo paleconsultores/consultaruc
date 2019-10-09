@@ -12,8 +12,14 @@ code {
     monospace;
 }
 
+html {
+  /* font-size 16px */
+  font-size: 100%;
+}
+
 /* title element */
 .title {
+  font-size: 2.5rem; /* 40px */
   text-transform: uppercase;
   font-weight: bold;
   display: flex;
@@ -36,12 +42,24 @@ code {
   color: #707070;
 }
 
-/* title element with medium modifier*/
-.title--medium {
-  font-size: 45px;
+/* small title */
+.title--small {
+  font-size: 2.5rem;
 }
 
-/* title element with large modifier*/
+/* medium title */
+.title--medium {
+  font-size: 3.75rem;
+}
+
+/* large title */
 .title--large {
-  font-size: 95px;
+  font-size: 5rem; /* 80px */
+}
+
+@media screen and (max-width: 767px) {
+  html {
+    /* font-size 16px */
+    font-size: 62.5%;
+  }
 }

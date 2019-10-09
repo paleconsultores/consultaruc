@@ -48,15 +48,15 @@ export class Carousel extends React.Component {
         const { properties, property } = this.state;
         return (
             <div>
-                <button
+                {/* <button
                     onClick={() => this.prevProperty()}
                     disabled={property.index === 0}
                 >Prev</button>
                 <button
                     onClick={() => this.nextProperty()}
                     disabled={property.index === data.properties.length - 1}
-                >Next</button>
-                <div>
+                >Next</button> */}
+                <div >
                     <CarouselCard property={property} />
                 </div>
             </div>

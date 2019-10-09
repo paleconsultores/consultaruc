@@ -1,0 +1,18 @@
+  .solutions {
+    display: grid;
+    grid-template-rows: auto 1fr;
+  
+  }
+  
+  .solutions__info {
+    display: grid;
+    grid-template: repeat(1, minmax(200px, 1fr)) / repeat(3, minmax(200px, 650px));
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width : 900px){
+    .solutions__info {
+      grid-template: repeat(1, minmax(200px, 1fr)) / 1fr;
+    }
+  }
