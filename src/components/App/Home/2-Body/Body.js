@@ -28,7 +28,7 @@ export class Body extends React.Component {
         </div>
           
         <div className="mensaje">
-          <p><span className="title--medium">Somos una empresa de consultoría y desarrollo de software,dedicada a brindar soluciones a empresas en distintos rubros</span></p>
+          <p><span>Somos una empresa de consultoría y desarrollo de software,dedicada a brindar soluciones a empresas en distintos rubros</span></p>
         </div>
          <div>
            <Information/>
@@ -37,7 +37,7 @@ export class Body extends React.Component {
             <Solutions/>
           </div>
         <div className="mensaje">
-          <p><span className="title--medium">Conoce mas sobre nuestro trabajo</span></p>
+          <p><span>Conoce mas sobre nuestro trabajo</span></p>
         </div>
         <Carousel></Carousel>
         <Services></Services>
