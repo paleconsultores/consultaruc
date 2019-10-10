@@ -6,11 +6,11 @@
 .services__info {
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(2, minmax(200px, 680px));
-  gap: 10px;
+  gap: 2rem;
   justify-content: center;
 }
 
-@media screen and (max-width : 1300px){
+@media screen and (max-width: 768px){
   .services__info {
     grid-template: repeat(4, minmax(200px, 1fr)) / 1fr;
   }

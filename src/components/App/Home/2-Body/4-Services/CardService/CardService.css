@@ -4,41 +4,38 @@
   width: 680px;
   justify-self: center;
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
 }
 
 /* title of CardService component */
-.card-service__title {
-  text-transform: uppercase;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-}
-
 .card-service .title {
   text-align: center;
-  margin: 0 3.125rem;
+  padding: 3em 3rem;
   justify-self: center;
   align-self: center;
 }
 
 /* description of CardService component */
 .card-service__description {
-  margin: 0 3.125rem;
+  padding: 3em 3rem;
   font-size: 2rem;
   align-self: center;
 }
 
 /* image of CardService component */
 .card-service__image {
-  /* height: 100%; */
   width: inherit;
   justify-self: center;
 }
 
+@media screen and (max-width: 1380px) {
+  .card-service {
+    width: 90%;
+  }
+}
+
 @media screen and (max-width : 500px){
   .card-service {
-    width: 100%;
+    width: 95%;
   }
 }
