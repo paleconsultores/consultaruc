@@ -19,10 +19,11 @@
 }
 /*Text of Carousel Card Component*/
 .carousel-card__text{
-  background-color: #24D9CF;
+  background: #24D9CF;
   align-items: center;
   margin-top: 1px;
   font-size: 1.6em;
+  color: white;
 
 }
 /*Media Query for a medium deskptop screen*/
@@ -36,10 +37,12 @@
   
   }
   .carousel-card__text{
-    background-color: #24D9CF;
+    background: #24D9CF;
     align-items: center;
     margin-top: 1px;
     font-size: 1.3em;
+    color: white;
+    
   
   }
 }
@@ -50,8 +53,9 @@
     height: 14rem;
   }
   .carousel-card__text{
-    background-color: #24D9CF;
+    background: #24D9CF;
     align-items: center;
     font-size: 1.3em;
+    color: white;
   }
 }

@@ -1,6 +1,6 @@
-html {
+ html {
   font-size: 100%; /* 100% = 16px */
-}
+ } 
 .ImgHex.shadow {
   transform-origin: 50% 50%;
   position: absolute;
@@ -24,15 +24,15 @@ html {
 .mensaje p {
   padding: 1.5em 3rem; /* mezclando em y rem */
   margin: 0;
-  font-size: 3.75rem;
+  font-size:3rem;
   text-align: center;
   font-family:'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,  'Helvetica Neue', sans-serif;
   font-weight: bold;
 }
-.mensaje p span{
+/* .mensaje p span{
   /*font-size: 4vw;*/
-  font-size: 4vw;
-}
+  /* font-size: 4vw;
+}  */
 
 .about {
   display: flex;
