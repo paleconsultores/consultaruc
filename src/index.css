@@ -40,25 +40,29 @@ html {
 .title--gray {
   color: #707070;
 }
-
+.paragraph{
+  font-size: 2vw;
+}
 /* x small title */
 .title--x-small {
-  font-size: 1.5rem; /* 24px */
+  /* font-size: 1.5rem; 24px */
+  font-size: 2.8vw;
 }
 
 /* small title */
 .title--small {
-  font-size: 2.5rem; /* 40px */
+  font-size: 3.5vw; /* 40px */
 }
 
 /* medium title */
 .title--medium {
-  font-size: 3.75rem;
+  font-size: 4vw; 
 }
 
 /* large title */
 .title--large {
-  font-size: 5rem; /* 80px */
+  /* font-size: 5rem; 80px */
+  font-size: 5.5vw;
 }
 
 @media screen and (max-width: 767px) {
@@ -71,5 +75,9 @@ html {
 @media screen and (max-width: 400px) {
   html {
     font-size: 50%;
+    
+  }
+   .paragraph{
+    font-size: 1.5vh;
   }
 }

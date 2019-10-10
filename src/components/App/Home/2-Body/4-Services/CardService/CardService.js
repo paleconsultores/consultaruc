@@ -19,7 +19,7 @@ export function CardService(
     return (
       <div className="card-service">
         <h1 className="title title--x-small title--gray">{title}</h1>
-        <p className="card-service__description">{children}</p>
+        <p className="card-service__description"><span className="paragraph">{children}</span></p>
         <img className="card-service__image" src={imageUrl} alt={alt}/>
       </div>
     );
@@ -28,7 +28,7 @@ export function CardService(
       <div className="card-service">
         <img className="card-service__image" src={imageUrl} alt={alt}/>
         <h1 className="title title--x-small title--gray">{title}</h1>
-        <p className="card-service__description">{children}</p>
+        <p className="card-service__description"><span className="paragraph">{children}</span></p>
       </div>
     );
   }
