@@ -27,7 +27,7 @@ export function Information(){
 
         <section className="information">
             <div className="information__info">
-            <div className="information__item">
+            <div>
                     { _cardInformation.map((information) =>
                             <CardInformation
                                 type={information.type}
@@ -36,7 +36,7 @@ export function Information(){
                             />
                     )}
             </div>
-            <div className="information__item">
+            <div>
             { _images.map((image) =>
                     <Image
                         type={image.type}

@@ -18,7 +18,7 @@ export function CardInformation(
         return(
             <div className="card-information">
                 <h1>{title}</h1>
-                <h2>{descripcion}</h2>
+                <p>{descripcion}</p>
             </div>
         );
     }

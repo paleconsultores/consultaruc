@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;
     height: auto;
+    padding: 0.63rem;
   
 }
 .card-information h1{
@@ -19,7 +20,7 @@
 
 }
 
-.card-information h2{
+.card-information p{
     font-family: 'Open Sans',  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,'Helvetica Neue', sans-serif;
     font-size: 2rem;
     text-align: justify;
