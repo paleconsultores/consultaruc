@@ -7,8 +7,8 @@ export function Header() {
   return(
     <header className="header">
       <nav className="header__navbar">
-        <a className="header__brand">
-          <img className="header__brand-image" src={logoPale}></img>  
+        <a className="header__brand" href="#top">
+          <img className="header__brand-image" src={logoPale} alt="logoPale"></img>  
         </a>
         <div className="header__menu">
           <ul className="header__menu-list">
@@ -19,6 +19,7 @@ export function Header() {
         </div>
         <div className="header__burger">
           <span></span>
+          
           <span></span>
           <span></span>
         </div>

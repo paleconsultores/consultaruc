@@ -35,9 +35,9 @@ export class Carousel extends React.Component {
             property: data.properties[newIndex]
         })
     }
-    componentDidMount() {
-        this.startCarousel()
-    }
+    // componentDidMount() {
+    //     this.startCarousel()
+    // }
     startCarousel = () => {
         setInterval(()=>{
             this.changeProperty()
@@ -48,16 +48,18 @@ export class Carousel extends React.Component {
         return (
             /*Cambiar a section y con un class name */ 
             <div >
-                {/* <button
+                <button
                     onClick={() => this.prevProperty()}
                     disabled={property.index === 0}
                 >Prev</button>
                 <button
                     onClick={() => this.nextProperty()}
                     disabled={property.index === data.properties.length - 1}
-                >Next</button> */}
-                <div className="carousel-slider">
-                    <div className="carousel-slider-wrapper">
+                >Next</button>
+                <div className={`carousel-slider active-slide-${property.index}`}>
+                    <div className="carousel-slider-wrapper" style={{
+                  'transform': `translateX(-${property.index*(100/properties.length)}%)`
+                        }}>
                         {
                             properties.map(property => <CarouselCard key={property._id} property={property} />)
                         }
