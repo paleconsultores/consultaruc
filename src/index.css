@@ -24,6 +24,7 @@ html {
   display: flex;
   justify-content: center;
   margin: 0;
+  text-align: center;
 }
 
 /* title element with green modifier*/
