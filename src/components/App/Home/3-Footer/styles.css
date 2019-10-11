@@ -38,6 +38,7 @@ footer .info {
   font-family:  'Open Sans',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   font-size: 1rem;
   margin: 0 auto;
+  text-align: center;
 }
 /* @media screen and (max-width : 900px){
   .footer .info {
