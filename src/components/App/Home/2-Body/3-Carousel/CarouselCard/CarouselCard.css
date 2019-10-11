@@ -10,8 +10,8 @@
 }
 /*image of Carousel Card Component*/
 .carousel-card__image{
-  width: 50%;
-  height: 40vh;
+  width: 70%;
+  height: 30vh;
   padding-top: 5%;
   padding-bottom: 5%;
   margin: auto;
@@ -20,6 +20,7 @@
 /*Text of Carousel Card Component*/
 .carousel-card__text{
   background: #24D9CF;
+  max-width: 1200px;
   align-items: center;
   margin-top: 1px;
   font-size: 1.6em;
