@@ -14,8 +14,8 @@ export const Footer = () => {
         <h5>Info@palerp.com</h5>
         <h5>983-125-256</h5>
       </div>
-      <div>
-        <h1>2019 PALERP</h1>
+      <div className="copyrigth">
+        <h1>Copyright © 2019 Pale Consultores</h1>
       </div>
       <div></div>
     </footer>
