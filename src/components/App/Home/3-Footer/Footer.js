@@ -10,9 +10,9 @@ export const Footer = () => {
     <footer>
       <div className="info">
         <img className="logoFooter" src={logoPale}></img>
-        <h5>Urb. Marcavalle E-20, Wanchaq - Cusco</h5>
+        <h5>Urb.Marcavalle E-15,Cusco-Cusco</h5>
         <h5>Info@palerp.com</h5>
-        <h5>983-125-256</h5>
+        <h5>984-125-256</h5>
       </div>
       <div className="copyrigth">
         <h1>Copyright © 2019 Pale Consultores</h1>
