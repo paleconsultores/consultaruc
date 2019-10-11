@@ -30,9 +30,3 @@
   width: 100%;
   justify-self: center;
 }
-
-@media screen and (max-width: 1199px) {
-  .card-service {
-    width: 90%;
-  }
-}
