@@ -1,14 +1,15 @@
 /* Header block */
 .header {
-  z-index: 1;
+  position: absolute;
+  z-index: 3;
   width: 100%;
-  background: indianred;
+  background: rgba(255, 255, 255, 0.2);
 }
 
 /* navbar element */
 .header__navbar {
   display: grid;
-  grid-template: 1fr / repeat(2, minmax(100px, 680px));
+  grid-template: 1fr / repeat(2, minmax(100px, 600px));
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
   justify-content: center;
 }
@@ -42,6 +43,7 @@
   justify-items: center;
 }
 
+/* keyframes for Brand animation */
 @keyframes showBrand {
   from {
     opacity: 0;
