@@ -1,11 +1,12 @@
 .services {
   display: grid;
-  grid-template-rows: auto 1fr;
+  grid-template: auto 1fr / minmax(200px, 1200px);
+  justify-content: center;
 }
 
 .services__info {
   display: grid;
-  grid-template: repeat(2, 1fr) / repeat(2, minmax(200px, 680px));
+  grid-template: repeat(2, 1fr) / repeat(2, minmax(200px, 584px));
   gap: 2rem;
   justify-content: center;
 }
