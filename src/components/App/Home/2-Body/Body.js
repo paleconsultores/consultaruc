@@ -39,7 +39,9 @@ export class Body extends React.Component {
         <div className="mensaje">
           <p><span className="title--medium">Conoce mas sobre nuestro trabajo</span></p>
         </div>
-        <Carousel></Carousel>
+        <div className="carousel-section">
+          <Carousel></Carousel>
+        </div>
         <Services></Services>
         <ClientList></ClientList>
       </div>

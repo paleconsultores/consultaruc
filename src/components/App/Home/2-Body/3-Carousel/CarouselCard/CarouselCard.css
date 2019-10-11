@@ -11,7 +11,7 @@
 /*image of Carousel Card Component*/
 .carousel-card__image{
   width: 50%;
-  height: 20rem;
+  height: 40vh;
   padding-top: 5%;
   padding-bottom: 5%;
   margin: auto;
@@ -30,7 +30,7 @@
 @media screen and (max-width: 1000px){
   .carousel-card__image{
     width: 50%;
-    height: 12rem;
+    height: 22vh;
     padding-top: 5%;
     padding-bottom: 5%;
     margin: auto;
@@ -50,7 +50,7 @@
 @media screen and (max-width: 480px){
   .carousel-card__image{
     width: 100%;
-    height: 14rem;
+    height: 20vh;
   }
   .carousel-card__text{
     background: #24D9CF;

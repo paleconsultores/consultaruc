@@ -1,0 +1,9 @@
+.carousel-slider{
+    
+}
+@media screen and (max-width: 1250px){
+   .carousel-slider{
+    margin-left: 15px;
+    margin-right: 15px;
+   }
+  }

@@ -33,6 +33,10 @@
   background: #FF4544;
   color: white;
 }
+.carousel-section{
+  max-width: 1200px;
+  margin:auto;
+}
 @keyframes rotateHexImg {
   from {
     transform: rotate(0deg);
