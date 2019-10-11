@@ -3,6 +3,7 @@ import React from "react";
 //Resources
 import { data } from './CarouselData'
 import { CarouselCard } from './CarouselCard/CarouselCard'
+import './Carousel.css'
 
 export class Carousel extends React.Component {
     constructor(props) {
@@ -57,7 +58,7 @@ export class Carousel extends React.Component {
                     onClick={() => this.nextProperty()}
                     disabled={property.index === data.properties.length - 1}
                 >Next</button> */}
-                <div >
+                <div className="carousel-slider">
                     <CarouselCard property={property} />
                 </div>
             </div>

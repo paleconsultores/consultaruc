@@ -10,8 +10,8 @@
 }
 /*image of Carousel Card Component*/
 .carousel-card__image{
-  width: 50%;
-  height: 20rem;
+  width: 70%;
+  height: 30vh;
   padding-top: 5%;
   padding-bottom: 5%;
   margin: auto;
@@ -20,6 +20,7 @@
 /*Text of Carousel Card Component*/
 .carousel-card__text{
   background: #24D9CF;
+  max-width: 1200px;
   align-items: center;
   margin-top: 1px;
   font-size: 1.6em;
@@ -30,7 +31,7 @@
 @media screen and (max-width: 1000px){
   .carousel-card__image{
     width: 50%;
-    height: 12rem;
+    height: 22vh;
     padding-top: 5%;
     padding-bottom: 5%;
     margin: auto;
@@ -50,7 +51,7 @@
 @media screen and (max-width: 480px){
   .carousel-card__image{
     width: 100%;
-    height: 14rem;
+    height: 20vh;
   }
   .carousel-card__text{
     background: #24D9CF;

@@ -18,13 +18,6 @@ export class Body extends React.Component {
   render() {
     return(
       <div className="container">
-        {/* <section className="hero" >
-          <div className="hero__hex-animation">
-            <img className="image-hex image-hex--shadow" src={redhexs} alt="Hexagon shadow" />
-            <img className="image-hex" src={redhex} alt="Hexagon" />
-          </div>
-          <div className="hero-image"></div>
-        </section> */}
         <Hero />
         <Message>
           Somos una empresa de consultoría y desarrollo de software,dedicada a brindar soluciones a empresas en distintos rubros
