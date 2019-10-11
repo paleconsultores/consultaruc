@@ -28,9 +28,6 @@ export class Carousel extends React.Component {
     changeProperty = () => {
         var newIndex = this.state.property.index + 1;
         var resetIndex = data.properties.length - 1;
-        
-        //
-        //
         if (newIndex > resetIndex) {
             newIndex=0
         }
@@ -49,7 +46,8 @@ export class Carousel extends React.Component {
     render() {
         const { properties, property } = this.state;
         return (
-            <div>
+            /*Cambiar a section y con un class name */ 
+            <div >
                 {/* <button
                     onClick={() => this.prevProperty()}
                     disabled={property.index === 0}
@@ -59,7 +57,11 @@ export class Carousel extends React.Component {
                     disabled={property.index === data.properties.length - 1}
                 >Next</button> */}
                 <div className="carousel-slider">
-                    <CarouselCard property={property} />
+                    <div className="carousel-slider-wrapper">
+                        {
+                            properties.map(property => <CarouselCard key={property._id} property={property} />)
+                        }
+                    </div>  
                 </div>
             </div>
         );

@@ -2,16 +2,20 @@
 /*Carousel Card component*/
 .carousel-card{
   width: 100%;
-  display: grid;
-  grid-template: 1fr / 1fr 1fr;
+  /* display: grid;
+  grid-template: 1fr / 1fr 1fr; */
+  /*box-sizing: border-box;*/
+  flex: 1;
+  min-width: 1200px;
+  display: flex;
   border: 1px solid black;
   /*justify-content: center;*/
   text-align:  center;
 }
 /*image of Carousel Card Component*/
 .carousel-card__image{
-  width: 70%;
-  height: 30vh;
+  width: 50%;
+  height: auto;
   padding-top: 5%;
   padding-bottom: 5%;
   margin: auto;

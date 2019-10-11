@@ -1,6 +1,23 @@
 /*Carousel-Slider component*/
+.carousel-slider-wrapper{
+    display: flex;
+    height: 550px;
+    position: absolute;
+}
 .carousel-slider{
     margin: auto;
+    position: relative;
+    height: 550px;
     max-width: 1200px;
     width: 95%;
 }
+.carousel-slider:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 550px;
+    outline: 5px solid #61DAFB;
+    position: absolute;
+    top: 0; 
+    left: 0;
+  }
