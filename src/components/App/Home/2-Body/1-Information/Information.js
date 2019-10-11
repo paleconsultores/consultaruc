@@ -27,7 +27,7 @@ export function Information(){
 
         <section className="information">
             <div className="information__info">
-            <div className="information__item">
+            <div>
                     { _cardInformation.map((information) =>
                             <CardInformation
                                 type={information.type}
@@ -36,7 +36,7 @@ export function Information(){
                             />
                     )}
             </div>
-            <div className="information__item">
+            <div>
             { _images.map((image) =>
                     <Image
                         type={image.type}
@@ -49,36 +49,5 @@ export function Information(){
 
         </section>
 
-
-
-        // <div className="information">
-       
-        // <div className="information__row">
-        //     <div  className="information_column">
-        //         <div className="information__left" >
-        //             { _cardInformation.map((information) =>
-        //             <CardInformation
-        //                 type={information.type}
-        //                 title={information.title}
-        //                 descripcion={information.descripcion}
-        //             />
-        //             )}
-
-        //         </div>
-        //     </div>
-            
-        //     <div  className="information_column">
-        //         <div className="information__right">
-        //             { _images.map((image) =>
-        //             <Image
-        //                 type={image.type}
-        //                 imageUrl={image.imageUrl}     
-        //             />
-        //             )}
-        //         </div>   
-        //     </div>
-        // </div>
-        // </div>
-       
     );
 }

@@ -10,8 +10,8 @@ export function CarouselCard ({property}) {
         <div id={`card-${index}`} className="carousel-card">
             <img className="carousel-card__image" src={picture} />
             <div className="carousel-card__text">
-                <h1 className="title--small">{title}</h1>
-                <p className="paragraph">
+                <h1>{title}</h1>
+                <p>
                     {text}
                 </p>
 

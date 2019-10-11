@@ -17,8 +17,8 @@ export function CardInformation(
     if(type===1){
         return(
             <div className="card-information">
-                <h1 className="title--x-small">{title}</h1>
-                <h2 className="paragraph">{descripcion}</h2>
+                <h1>{title}</h1>
+                <p>{descripcion}</p>
             </div>
         );
     }
