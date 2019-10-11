@@ -1,7 +1,13 @@
 /* Client List component */
 .client-list {
   display: grid;
-  grid-template: 1fr / 1fr;
+  grid-template: 1fr / minmax(200px, 1200px);
+  justify-content: center;
+}
+
+.client-list__title {
+  width: 90%;
+  justify-self: center;
 }
 
 .client-list__title--green {
@@ -14,6 +20,6 @@
 .client-list-cards {
   white-space: nowrap;
   overflow: scroll;
-  width: 80%;
+  width: 90%;
   justify-self: center;
 }
